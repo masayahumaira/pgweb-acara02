@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Acara2-Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <style>
+        main {
+            margin-top: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg shadow fixed-top" style="background-color: #fcfaec;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Sleman</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <i class="bi bi-house-door"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#deskripsi"> <i class="bi bi-chat-right-text-fill"></i>
+                                Deskripsi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#penduduk"> <i class="bi bi-people-fill"></i> Penduduk</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#kecamatan"> <i class="bi bi-geo-alt-fill"></i> Kecamatan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sumber"> <i class="bi bi-link-45deg"></i> Sumber</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Gambar"> <i class="bi bi-image"></i> Gambar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#InfoModal"> <i class="bi bi-info-circle-fill"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- Tittle -->
+        <div class="alert alert-warning shadow text-center" role="alert">
+            <h1>Kabupaten Sleman</h1>
+            <h5>DI Yogyakarta</h5>
+        </div>
+
+        <!-- Deskripsi -->
+        <div class="card shadow" id="deskripsi">
+            <div class="card-header">
+                <h5><i class="bi bi-chat-right-text-fill"> </i>Deskripsi</h5>
+            </div>
+            <div class="card-body">
+                <!-- Paragraf -->
+                <p>Kabupaten Sleman (bahasa Jawa: ꦱ꧀ꦭꦺꦩꦤ꧀, translit. Sléman; pelafalan dalam bahasa Indonesia:
+                    [səˈleman])
+                    adalah sebuah wilayah kabupaten yang terletak di Provinsi Daerah Istimewa Yogyakarta, Indonesia.
+                    Ibu kotanya
+                    adalah Kapanéwon Sleman. Sleman dikenal sebagai asal buah salak pondoh.[7] Pada pertengahan
+                    tahun 2024,
+                    jumlah penduduk Sleman sebanyak 1.118.353 jiwa.[1]</p>
+
+                <p>Kabupaten ini berbatasan dengan Provinsi Jawa Tengah (Kabupaten Magelang, Kabupaten Boyolali, dan
+                    Kabupaten
+                    Klaten) di utara dan timur, Kabupaten Gunungkidul, Kabupaten Bantul, dan Kota Yogyakarta di
+                    selatan, serta
+                    Kabupaten Kulon Progo di barat; di mana hal itu menjadikan Sleman sebagai satu-satunya kabupaten
+                    di DIY yang
+                    tidak memiliki pantai. Pusat pemerintahan di Kapanewon Sleman, yang berada di jalur utama antara
+                    Yogyakarta–Semarang.</p>
+
+                <p>Bagian utara kabupaten ini merupakan pegunungan, dengan puncaknya Gunung Merapi di perbatasan
+                    dengan Jawa
+                    Tengah, salah satu gunung berapi aktif yang paling berbahaya di Pulau Jawa. Sedangkan di bagian
+                    selatan
+                    merupakan dataran rendah yang subur. Di antara sungai-sungai besar yang melintasi kabupaten ini
+                    adalah Kali
+                    Progo (membatasi Kabupaten Sleman dengan Kabupaten Kulon Progo), kali Code, kali</p>
+            </div>
+        </div>
+
+        <!-- Penduduk -->
+        <div class="card shadow mt-4" id="penduduk">
+            <div class="card-header">
+                <h5><i class="bi bi-people-fill"></i> </i>Penduduk</h5>
+            </div>
+            <div class="card-body">
+                <!-- Tabel -->
+                <table class="table table-striped table-hover">
+                    <tr>
+                        <th>No</th>
+                        <th>Jenis Kelamin</th>
+                        <th>Jumlah</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Laki-laki</td>
+                        <td>593.297 Jiwa</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Perempuan</td>
+                        <td>607.177 Jiwa</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Total</td>
+                        <td>1.200.474 Jiwa</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Kecamatan -->
+        <div class="card shadow mt-4" id="kecamatan">
+            <div class="card-header">
+                <h5><i class="bi bi-geo-alt-fill"></i> Kecamatan</h5>
+            </div>
+            <div class="card-body">
+                <ol>
+                    <li>Berbah</li>
+                    <li>Cangkringan</li>
+                    <li>Depok</li>
+                    <li>Gamping</li>
+                    <li>Godean</li>
+                </ol>
+            </div>
+        </div>
+
+        <!-- Sumber -->
+        <div class="card shadow mt-4" id="sumber">
+            <div class="card-header">
+                <h5><i class="bi bi-link-45deg"></i> Sumber</h5>
+            </div>
+            <div class="card-body">
+                Sumber: <a href="http://id.wikipedia.org/wiki/Kabupaten_Sleman" target="_blank"
+                    rel="noopener noreferrer">Wikipedia</a>
+            </div>
+        </div>
+
+        <!-- Gambar -->
+        <div class="card shadow mt-4" id="Gambar">
+            <div class="card-header">
+                <h5><i class="bi bi-image"></i> Gambar</h5>
+            </div>
+            <div class="card-body">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Gunung_Merapi.jpg/1920px-Gunung_Merapi.jpg?utm_source=id.wikipedia.org&utm_campaign=index&utm_content=thumbnail"
+                    width="400">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Yogyakarta_Indonesia_Prambanan-temple-complex-02.jpg/1920px-Yogyakarta_Indonesia_Prambanan-temple-complex-02.jpg?utm_source=id.wikipedia.org&utm_campaign=index&utm_content=thumbnail"
+                    width="400">
+                <hr>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/nj2bzNns1bY?si=RN-oqdc0VWWJ9Dh6"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></ifwidth=>"
+                    frameborder="0"></iframe>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal -->
+    <div class="modal fade" id="InfoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Info</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table">
+                        <tr>
+                            <td>Nama</td>
+                            <td>:</td>
+                            <td>Masaya Humaira Swandani</td>
+                        </tr>
+                        <tr>
+                            <td>NIM</td>
+                            <td>:</td>
+                            <td>25/557186/SV/26120</td>
+                        </tr>
+                        <tr>
+                            <td>Kelas</td>
+                            <td>:</td>
+                            <td>A</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
